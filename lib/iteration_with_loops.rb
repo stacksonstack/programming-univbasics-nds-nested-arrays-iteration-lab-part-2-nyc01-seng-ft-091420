@@ -10,8 +10,8 @@ def find_min_in_nested_arrays(src)
       end
       element_index += 1 
     end 
-    lowest_Array << element_index
+    lowest_Array.push(lowest_temp)
     row_index +=1 
   end 
-  lowest_temp
+  lowest_Array
 end
